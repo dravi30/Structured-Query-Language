@@ -64,3 +64,22 @@ emp_id, name, age, department, salary, joining_date
 3	Charlie	30	Sales	60000	2020-01-20
 2	Bob	35	Engineering	75000	2019-07-01
 1	Alice	28	HR	50000	2021-03-15
+
+
+
+---5)Employees in Engineering with salary > 70000
+select * from employees where department="Engineering" and salary > 7000;
+
+emp_id, name, age, department, salary, joining_date
+2	Bob	35	Engineering	75000	2019-07-01
+4	David	45	Engineering	82000	2018-11-11
+
+--6) Employees not in Sales -- 
+select * from employees where department != "Sales";
+
+emp_id, name, age, department, salary, joining_date
+1	Alice	28	HR	50000	2021-03-15
+2	Bob	35	Engineering	75000	2019-07-01
+4	David	45	Engineering	82000	2018-11-11
+
+
