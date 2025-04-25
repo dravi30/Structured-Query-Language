@@ -1,9 +1,3 @@
-/*List the names and departments of all employees.
-Show all employees who work in the Engineering department.
-Find employees who earn more than 60,000.
-List the names and joining dates of employees who joined before 2019.
-Sort all employees by salary in descending order. */
-
 create database emp;
 use emp;
 
