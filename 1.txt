@@ -1,0 +1,8 @@
+-- CREATE DATABASE
+create database employees;
+
+-- SWITCH TO DATABASE
+use employees;
+
+-- DELETE DATABASE
+drop database employees;
