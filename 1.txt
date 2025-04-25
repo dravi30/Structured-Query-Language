@@ -6,3 +6,17 @@ use employees;
 
 -- DELETE DATABASE
 drop database employees;
+
+
+SELECT – Retrieve data
+WHERE – Filter data
+ORDER BY – Sort results
+LIMIT – Restrict rows
+DISTINCT – Unique values
+Aggregate Functions – COUNT, SUM, AVG, MAX, MIN
+GROUP BY + HAVING – Group and filter groups
+UPDATE – Change data
+DELETE – Remove data
+Functions – DATE functions, LIKE, IN, BETWEEN
+Subqueries
+Joins (once we add another table)
